@@ -16,9 +16,15 @@ Average: 6.0
 '''
 num = int(input("Enter a number or enter 0 to stop:"))
 total = 0
+divisor = 0
+answer = 0
 
 while num != 0:
   total = total + num
+  divisor += 1
   num = int(input("Enter a number or enter 0 to stop:"))
+  
+
+answer = total / divisor
     
-print("Average:", total)
+print("Average:", answer)
